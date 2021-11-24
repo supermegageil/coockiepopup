@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>youtube 데이터 불러오기</title>
+    <title>cookie popup</title>
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/youtube.js"></script>
+    <script defer src="js/cookie_pop.js"></script>
 </head>
+
 <body>
-    
+    <a href="#" class="del">DELETE COOKIE</a>
+    <a href="#" class="view">VIEW COOKIE</a>
+
+    <aside id="popup">
+        <div id="content">
+            환영합니다!!!
+        </div>
+        <div class="wrap">
+            <input type="checkbox" name="ck" id="ck">
+            <label for="ck">오늘 하루 그만 보기</label>
+        </div>
+        <a href="#" class="close">CLOSE</a>
+    </aside>
 </body>
+
 </html>
