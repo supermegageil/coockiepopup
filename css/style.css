@@ -28,37 +28,9 @@ input,
 label {
   vertical-align: middle; }
 
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box; }
-
-ul,
-ol,
-li {
-  list-style: none; }
-
-a {
-  text-decoration: none; }
-
-fieldset {
-  border: none; }
-
-table {
-  border-collapse: collapse; }
-
-.h {
-  position: absolute;
-  top: -9999px;
-  opacity: 0; }
-
-input,
-label {
-  vertical-align: middle; }
-
 #popup {
   width: 500px;
-  background: lightblue;
+  background: linear-gradient(#c9cdce, #a08adf, #dde494);
   padding: 40px;
   box-sizing: border-box;
   color: #fff;
